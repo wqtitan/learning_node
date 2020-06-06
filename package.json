@@ -1,0 +1,22 @@
+{
+  "name": "learning_node",
+  "version": "1.0.0",
+  "description": "nnn",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wqtitan/learning_node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wqtitan/learning_node/issues"
+  },
+  "homepage": "https://github.com/wqtitan/learning_node#readme",
+  "devDependencies": {},
+  "dependencies": {},
+  "keywords": []
+}
