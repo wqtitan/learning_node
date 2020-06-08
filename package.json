@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/wqtitan/learning_node#readme",
   "devDependencies": {},
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "keywords": []
 }
