@@ -12,13 +12,10 @@ function review(response) {
   fs.createReadStream(__dirname + "/review.html", "utf8").pipe(response);
 }
 
-function api_records(response) {
+function api_records(response, params) {
   console.log('Excuting "api_records" handler');
   response.writeHead(200, { "Content-Type": "application/json" });
-  const jsonObj = {
-    name: "hfpp2012"
-  };
-  response.end(JSON.stringify(jsonObj));
+  response.end(JSON.stringify(params));
 }
 
 function favicon_ico() {
