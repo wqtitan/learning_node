@@ -3,9 +3,9 @@ const express = require('express');
 const app = express();
 
 app.get('/', function (req, res) {
-  // let responseObject = [{ name: "jell" }, { name: "will" }];
+  console.dir(req.query)
   let responseObject = req.method;
-  res.send(responseObject);    // send方法  http://expressjs.com/ 查看api
+  res.send("home page: " + req.query.find);    // query
 });
 
 app.get('/profile/:id/user/:name', function (req, res) {
